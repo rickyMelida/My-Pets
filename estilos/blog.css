@@ -1,0 +1,24 @@
+#blog h3, h4 {
+    text-align: center;
+}
+
+#blog .contenedor {
+    display: flex;
+    justify-content: center;/*Para que este centrado*/
+    flex-wrap: wrap;/*Para que el elemento que no cabe en la pantalla se baje uno debajo del otro*/
+}
+
+#blog article {
+    margin: 15px;
+}
+
+#blog img {
+    width: 100%;
+    max-width: 280px;
+}
+
+@media (min-width:480px) {
+    #blog img {
+        height: 200px;
+    }
+}
